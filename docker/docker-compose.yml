@@ -1,0 +1,47 @@
+services:
+  # --- CLUSTER A : STAGING (Source CSV/SFTP) ---
+  cluster-a-node1:
+    image: cassandra:latest
+    container_name: cluster-a-node1
+    ports:
+      - "9042:9042"  # Port standard
+    environment:
+      - CASSANDRA_CLUSTER_NAME=Cluster_Staging
+      - CASSANDRA_DC=DC_Staging
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cluster_a_data:/var/lib/cassandra
+
+  # --- CLUSTER B : SQL_SYNC (Source PostgreSQL) ---
+  cluster-b-node1:
+    image: cassandra:latest
+    container_name: cluster-b-node1
+    ports:
+      - "9043:9042"  # On mappe le 9042 interne sur le 9043 externe
+    environment:
+      - CASSANDRA_CLUSTER_NAME=Cluster_SQL_Sync
+      - CASSANDRA_DC=DC_SQL
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cluster_b_data:/var/lib/cassandra
+
+  # --- CLUSTER C : ANALYTICS (Source API JSON) ---
+  cluster-c-node1:
+    image: cassandra:latest
+    container_name: cluster-c-node1
+    ports:
+      - "9044:9042"  # On mappe le 9042 interne sur le 9044 externe
+    environment:
+      - CASSANDRA_CLUSTER_NAME=Cluster_Analytics
+      - CASSANDRA_DC=DC_Analytics
+      - MAX_HEAP_SIZE=512M
+      - HEAP_NEWSIZE=100M
+    volumes:
+      - cluster_c_data:/var/lib/cassandra
+
+volumes:
+  cluster_a_data:
+  cluster_b_data:
+  cluster_c_data:

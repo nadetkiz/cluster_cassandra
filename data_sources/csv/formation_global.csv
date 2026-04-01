@@ -1,0 +1,27 @@
+id_formation,code_formation,nom_formation,cycle,departement,annee_academique,statut_formation
+1,ILD,Ingénierie du Logiciel et des Données,Licence,Technologie & Ingénierie,2024-2025,ouverte
+2,SRT,Systèmes Réseaux & Télécommunications,Licence,Technologie & Ingénierie,2024-2025,ouverte
+3,WBM,Web & Mobile,Master,Technologie & Ingénierie,2024-2025,ouverte
+4,DAS,Data Science,Master,Technologie & Ingénierie,2024-2025,ouverte
+5,SRS,Systèmes Réseaux & Sécurité,Master,Technologie & Ingénierie,2024-2025,ouverte
+6,FNC,Finance & Comptabilité,Licence,Economie & Gestion,2024-2025,ouverte
+7,GRH,Gestion des Ressources Humaines,Licence,Economie & Gestion,2024-2025,ouverte
+8,CAC,Comptabilité Audit & Contrôle,Master,Economie & Gestion,2024-2025,ouverte
+9,MPR,Management des Projets & Responsabilités,Master,Economie & Gestion,2024-2025,ouverte
+10,DGN,Droit Général,Licence,Sciences Juridiques,2024-2025,ouverte
+11,CAJ,Carrières Juridiques,Licence,Sciences Juridiques,2024-2025,ouverte
+12,DAF,Droit des Affaires,Master,Sciences Juridiques,2024-2025,ouverte
+13,DPB,Droit Public,Master,Sciences Juridiques,2024-2025,ouverte
+14,ILD,Ingénierie du Logiciel et des Données,Licence,Technologie & Ingénierie,2025-2026,ouverte
+15,SRT,Systèmes Réseaux & Télécommunications,Licence,Technologie & Ingénierie,2025-2026,ouverte
+16,WBM,Web & Mobile,Master,Technologie & Ingénierie,2025-2026,ouverte
+17,DAS,Data Science,Master,Technologie & Ingénierie,2025-2026,ouverte
+18,SRS,Systèmes Réseaux & Sécurité,Master,Technologie & Ingénierie,2025-2026,ouverte
+19,FNC,Finance & Comptabilité,Licence,Economie & Gestion,2025-2026,ouverte
+20,GRH,Gestion des Ressources Humaines,Licence,Economie & Gestion,2025-2026,ouverte
+21,CAC,Comptabilité Audit & Contrôle,Master,Economie & Gestion,2025-2026,ouverte
+22,MPR,Management des Projets & Responsabilités,Master,Economie & Gestion,2025-2026,ouverte
+23,DGN,Droit Général,Licence,Sciences Juridiques,2025-2026,ouverte
+24,CAJ,Carrières Juridiques,Licence,Sciences Juridiques,2025-2026,ouverte
+25,DAF,Droit des Affaires,Master,Sciences Juridiques,2025-2026,ouverte
+26,DPB,Droit Public,Master,Sciences Juridiques,2025-2026,ouverte

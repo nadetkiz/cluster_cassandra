@@ -1,0 +1,16 @@
+# Interface & Dashboard
+streamlit
+pandas
+plotly
+
+# Base de données NoSQL (Cassandra)
+cassandra-driver
+gevent  # Indispensable pour la compatibilité Python 3.12/Windows
+
+# Sources de données
+psycopg2-binary  # Pour PostgreSQL
+requests         # Pour l'API JSON
+flask            # Pour l'API JSON
+paramiko         # Pour le serveur SFTP
+openpyxl         # Pour lire d'éventuels fichiers Excel/CSV complexes
+
